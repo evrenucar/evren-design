@@ -8,7 +8,7 @@ a:hover { color:var(--ink); }
 a:focus-visible,summary:focus-visible { outline:2px solid var(--link); outline-offset:6px; }
 header,footer,.annotation,figcaption,.small,summary,.services dt { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; }
 header { display:flex; align-items:center; justify-content:space-between; gap:28px; min-height:110px; font-size:13px; border-bottom:1px solid var(--line); }
-.signature { color:var(--ink); font-family:Georgia,serif; font-size:32px; letter-spacing:-1.8px; text-decoration:none; }
+.signature { white-space:nowrap; flex-shrink:0; color:var(--ink); font-family:Georgia,serif; font-size:32px; letter-spacing:-1.8px; text-decoration:none; }
 .registration { display:inline-block; color:var(--link); font-family:monospace; font-size:20px; margin-left:5px; vertical-align:super; }
 nav { display:flex; flex-wrap:wrap; gap:12px 28px; }
 .intro { max-width:760px; padding:85px 0 76px; position:relative; }
