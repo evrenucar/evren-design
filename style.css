@@ -16,7 +16,7 @@ p { margin:0 0 24px; }
 .intro>p:not(.location) { max-width:470px; }
 .location { color:var(--muted); margin-top:36px; }
 figure { margin:0; }
-.shot img { display:block; width:100%; height:auto; }
+.shot img { display:block; width:100%; height:auto; border-bottom-right-radius:30px; }
 figcaption { color:var(--muted); padding-top:14px; }
 .approach { max-width:490px; margin:150px 0 150px auto; }
 .second-shot { width:72%; }
