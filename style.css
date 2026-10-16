@@ -30,3 +30,10 @@ footer { display:flex; justify-content:space-between; flex-wrap:wrap; gap:16px; 
 .skip { position:absolute; left:-10000px; }.skip:focus { left:20px; top:10px; background:var(--paper); }
 @media(max-width:600px){body{padding:0 24px;font-size:18px;} header{padding:30px 0;} .signature{width:82px;} .intro{padding:76px 0 96px;} h1{margin-bottom:30px;} .approach{margin:100px 0;} .second-shot{width:90%;} .photo-placeholder{width:90%;margin-top:100px;} .contact{margin:110px 0;} footer{font-size:11px;} }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+
+.disciplines { color:var(--muted); font:13px/1.9 ui-monospace,SFMono-Regular,Consolas,monospace; margin-bottom:36px; }
+.photo-pair { display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:start; }
+.photo-pair figure:last-child { margin-top:100px; }
+.project-shot { width:78%; margin:140px 0 0; }
+.field-shot { margin-left:auto; }
+@media(max-width:600px){.photo-pair{grid-template-columns:1fr;gap:70px;}.photo-pair figure:last-child{margin-top:0;width:90%;margin-left:auto;}.project-shot{width:100%;margin-top:90px;}}
